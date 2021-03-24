@@ -15,9 +15,10 @@ $ pipenv install
     * `$ python network.py -p 5001`
     * `$ python network.py -p 5002`
     * `$ python network.py -p 5003`
-    * 
+
+
 ##Logic 
-I am using a key and id system
+*I am using a key and id system
 If there are 4 ports 5000,5001,5002,and 5003 in the network
 5000 would generates a request id and sends a request to 5001. 
 5000 would also send the request id to 5002 and 5003 but not to 5001. 
