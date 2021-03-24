@@ -17,7 +17,7 @@ $ pipenv install
     * `$ python network.py -p 5003`
 
 
-##Logic 
+## Logic 
 
 - I am using a key and id system
 - If there are 4 ports 5000,5001,5002,and 5003 in the network
@@ -33,20 +33,20 @@ $ pipenv install
 - The system checks if the key and id matches for everyone else on the network >50% agrees(consensus) 
 - if everything matches then this request would be converted into a transaction and added into the chain of transaction 
 
-##Consensus
+## Consensus
 Needs to have more than 50% of the network to agree.
 
-##Proof of work
+## Proof of work
 Is comparing the keys and ids of all the nodes in the network.
 
-##Create nodes with - new_nodes 
+## Create nodes with - new_nodes 
 
 {     
 "nodes":["http://127.0.0.1:5000"] 
 } 
 
 changing 5000 to 5001, 5002, 5003 for 4 nodes 
-##Make a request with - new_request 
+## Make a request with - new_request 
 
 {     
 "sender_port": "127.0.0.1:5000",     
@@ -54,4 +54,4 @@ changing 5000 to 5001, 5002, 5003 for 4 nodes
 "book_value": "2" 
 } 
 
-##get the chain with - get_chain 
+## get the chain with - get_chain 
