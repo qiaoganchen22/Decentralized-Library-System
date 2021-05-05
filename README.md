@@ -1,5 +1,5 @@
 # Decentralized-Library-System
-![bockahin](https://user-images.githubusercontent.com/38334354/117197826-46e50780-adb6-11eb-9a0d-5ac424c7a3c7.jpg)
+![blockchain](https://user-images.githubusercontent.com/38334354/117197912-5d8b5e80-adb6-11eb-9aaa-8559c17965f4.jpg)
 
 ## To run
 1. Python 3.6+
